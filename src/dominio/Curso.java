@@ -18,6 +18,8 @@ public class Curso {
         }
         }
     public void setPromedio(){
+        //código incorrecto, modifica la nota del estudiante 1
+        //utilice una variable acumuladora
         double promedio=0;
         for(int i = 1; i<12;i++){
             this.notas[0]=this.notas[0]+this.notas[i];
